@@ -1,0 +1,28 @@
+*{
+    background-color: rgb(255, 242, 204);
+}
+.container{
+    background-color: rgb(223, 166, 123);
+    width: 350px;
+    height: 500px;
+    border-radius: 3%;
+
+    display: grid;
+    grid-template: repeat(6, 1fr) / repeat(4, 1fr);
+}
+
+.screen{
+    background-color: rgb(223, 166, 123);
+    font-size: 45px;
+    margin: 10px;
+    grid-column: 1 / span 4;
+    place-self: center end;
+}
+
+.keyboard{
+    background-color: rgb(244, 177, 131);
+    font-size: 25px;
+    margin: 10px;
+    border: 1px solid rgb(255, 217, 102);
+    border-radius: 20%;
+}
